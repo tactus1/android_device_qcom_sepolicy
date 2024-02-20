@@ -31,3 +31,6 @@
 
 allow vendor_location_app sysfs_kgsl_gpu_model:file r_file_perms;
 dontaudit vendor_location_app default_android_service:service_manager {find};
+
+allow vendor_location_app system_data_file:dir {search};
+allow vendor_location_app user_profile_root_file:dir {search};

@@ -5,3 +5,6 @@
 
 # allows location to access ssgtzd socket
 allow location ssgtzd_socket:sock_file write;
+
+# /data/vendor/wifi
+allow location wifi_vendor_data_file:dir rw_dir_perms;

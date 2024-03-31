@@ -84,3 +84,5 @@ get_prop(rild, radio_control_prop)
 set_prop(rild, vendor_xlat_prop)
 get_prop(rild, vendor_rild_libpath_prop)
 get_prop(rild, vendor_dataqdp_prop)
+
+binder_call(rild, qtidataservices_app)
